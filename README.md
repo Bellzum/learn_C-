@@ -1,5 +1,3 @@
-````markdown
-```cpp
-// I am learning C++ on Udacity platform.
+# learn_C++
 
-```
+Learning C++ basics with Udacity
