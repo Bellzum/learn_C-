@@ -17,9 +17,9 @@ Goal: practice getting string inputs and
  int main()
  {
      std::string stringLength, stringWidth;
-     float length = 0.0;
-     float width = 0.0;
-     float area =0.0;
+     float length = 0.0f;
+     float width = 0.0f;
+     float area =0.0f;
      
      std::cout << "Enter number of length: ";
      std::getline(std::cin, stringLength);

@@ -1,21 +1,39 @@
-#include <iostream>
-#include <cmath>
-using namespace std;
+/*Goal: practice arithmetic operations in C++
+ Write a program that calculates the volumes of:
+a cube, sphere, cone.
+Cube Volume = side^3
+Sphere Volume = (4/3) * pi * radius^3
+Cone Volume = pi * radius^2 * (height/3)
+Write the values to the console.
+*/
 
-int main() {
-    // Dimensions
-    float cubeSide     = 5.4f;
-    float sphereRadius = 2.33f;
-    float coneRadius   = 7.65f;
-    float coneHeight   = 14.0f;
+#include<iostream>
+#include<cmath>
 
-    // Volumes
-    float volCube   = pow(cubeSide, 3);
-    float volSphere = (4.0f / 3.0f) * static_cast<float>(M_PI) * pow(sphereRadius, 3);
-    float volCone   = static_cast<float>(M_PI) * pow(coneRadius, 2) * (coneHeight / 3.0f);
+using namespace std; 
 
-    cout << "Cube volume:   " << volCube   << '\n';
-    cout << "Sphere volume: " << volSphere << '\n';
-    cout << "Cone volume:   " << volCone   << '\n';
+int main()
+{
+    //Dimension of the cube
+    float cubeSide = 5.4;
+    //Dimension of sphere
+    float sphereRadius = 2.33;
+    //Dimensions of cone
+    float coneRadius = 7.65;
+    float coneHeight = 14;
+    
+    float volCube, volSphere, volCone = 0;
+    
+    //volCube :Cube Volume = side^3
+    volCube = std::pow(cubeSide,3);
+    //volSphere :Sphere Volume = (4/3) * pi * radius^3
+    volSphere = (4.0/3.0)*M_PI*std::pow(sphereRadius,3.0);
+    //volCone :Cone Volume = pi * radius^2 * (height/3)
+    volCone = M_PI*std::pow(coneRadius,2.0)*(coneHeight/3);
+    
+    //Output resutls
+    cout<< "Cube volume: " << volCube <<endl;
+    cout<< "Sphere volume: " << volSphere <<endl;
+    cout<< "Cone volume: " << volCone<<endl;
     return 0;
 }
