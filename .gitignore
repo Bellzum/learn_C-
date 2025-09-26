@@ -1,0 +1,7 @@
+.vscode/
+correct_variable
+*.o
+a.out
+*.exe
+build/
+cmake-build-*/
