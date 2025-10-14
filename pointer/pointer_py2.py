@@ -1,5 +1,3 @@
-# Sample program for "Pointer-like" behavior in Python
-
 # Step 1: Declare variables
 givenInt = int(input("integer = "))
 givenFloat = float(input("float = "))
