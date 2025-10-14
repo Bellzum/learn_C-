@@ -2,7 +2,7 @@ number = None
 character = None
 sentence = None
 
-# "Pointer" variables (just more references)
+# "Pointer" variables 
 pointerI = number
 pointerC = character
 pointerS = sentence
