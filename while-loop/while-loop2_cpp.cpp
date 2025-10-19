@@ -7,7 +7,6 @@
 int main()
 {
     int a = 0;
-
     // First while loop
     while(a < 5)
     {
