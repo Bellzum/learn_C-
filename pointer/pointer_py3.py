@@ -25,3 +25,5 @@ print("id(character):", id(character))
 print("id(pointerC):", id(pointerC))
 print("id(sentence):", id(sentence))
 print("id(pointerS):", id(pointerS))
+
+##end 
